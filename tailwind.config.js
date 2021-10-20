@@ -7,9 +7,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    screens: {
+      // 客製化斷點可以新增在這邊
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      // 開關特定功能的 hover 、 active 和 focus 變化模式
+    },
   },
   plugins: [],
 };
