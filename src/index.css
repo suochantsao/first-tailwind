@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .link-button {
+    @apply text-blue-600 border-2 border-blue-600 rounded p-2;
+  }
+}
