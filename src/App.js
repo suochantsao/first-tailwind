@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div className="App max-w-7xl border-2 rounded border-blue-100 my-10 mx-auto">
+    <div className="App card-style">
       <header className="App-header m-7 ">
-        <h1 className="text-3xl mb-3">KEEP CALM and USE STACKOVERFLOW</h1>
+        <h1 className="page-title">KEEP CALM and USE STACKOVERFLOW</h1>
         <a
           className="link-button"
           href="https://reactjs.org"
